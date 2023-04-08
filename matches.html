@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="Latin-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result matches</title>
+</head>
+<body>
+    <p>Rendez-vous sur <a href='static/widget.html'> la page Pole Emploi</a> pour faire une recherche. Les mots clés interessants dans votre CV sont </p>
+   
+    {% for competence in competences_of_interest %}
+        <p>{{competence}}</p>
+    {% endfor %}
+    <br>
+    <b>Devine est un projet expérimental. Vous souhaitez soutenir le projet ? Contactez-nous à candidaturesdevine@gmail.com </b>
+</body>
+</html>
