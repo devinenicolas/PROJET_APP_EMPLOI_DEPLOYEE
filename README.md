@@ -1,4 +1,10 @@
 # PROJET_APP_EMPLOI_DEPLOYEE
-Repository pour déploiement
+Repository temporaire pour déploiement
 
-Créer 2 répertoires enfant templates et static
+La version présentée ici est v0.9 
+
+La dernière version v2.2 est actuellement déployée sur http://devine.fr
+
+Pour toute question sur le projet ou le code, merci de contacter à candidaturesdevine@gmail.com
+
+Merci !
